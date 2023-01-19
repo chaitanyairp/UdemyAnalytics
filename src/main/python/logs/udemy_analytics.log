@@ -1,0 +1,175 @@
+"20-Jan-23 00:44:57" - __main__ - INFO - Started executing main().
+"20-Jan-23 00:44:57" - create_objects - INFO - Started get_spark_session().
+"20-Jan-23 00:45:12" - create_objects - INFO - Completed get_spark_session().
+
+"20-Jan-23 00:45:12" - validations - INFO - Started validate_spark_object().
+"20-Jan-23 00:45:16" - validations - INFO - Validating spark object by printing current date
+"20-Jan-23 00:45:16" - validations - INFO - Current date is : [Row(current_date()=datetime.date(2023, 1, 20))]
+"20-Jan-23 00:45:16" - validations - INFO - Completed validate_spark_object().
+
+"20-Jan-23 00:45:16" - run_ingestion - INFO - Started ingesting the file user_details
+"20-Jan-23 00:45:17" - run_ingestion - INFO - Completed ingesting the file user_details
+"20-Jan-23 00:45:17" - validations - INFO - Started print_count_of_df for user_details_df
+"20-Jan-23 00:45:18" - validations - INFO - Count of user_details_df is : 1000
+"20-Jan-23 00:45:18" - validations - INFO - Completed print_count_of_df for user_details_df
+"20-Jan-23 00:45:18" - validations - INFO - Started print_schema_of_df for user_details_df
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_id,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_name,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_email,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_country,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_state,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_timezone,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_last_activity,IntegerType,true)
+"20-Jan-23 00:45:18" - validations - INFO - 	StructField(user_device_type,StringType,true)
+"20-Jan-23 00:45:18" - validations - INFO - Completed print_schema_of_df for user_details_df
+"20-Jan-23 00:45:18" - validations - INFO - Started print_top_ten_rows for user_details_df
+"20-Jan-23 00:45:19" - validations - INFO - 
+ 	user_id           user_name                      user_email  user_country    user_state       user_timezone  user_last_activity user_device_type
+      1         Luce Puckey           lpuckey0@hatena.ne.jp United States      Illinois     America/Chicago          1639925378           tablet
+      2    Demetrius Troyes            dtroyes1@webnode.com United States    California America/Los_Angeles          1626710047           laptop
+      3       Noelle Gullam ngullam2@scientificamerican.com United States       Georgia    America/New_York          1633361713           mobile
+      4     Flin Littledike          flittledike3@yahoo.com United States       Arizona     America/Phoenix          1625210787           mobile
+      5      Sara-ann Aupol              saupol4@meetup.com United States       Florida    America/New_York          1649135045           tablet
+      6       Dyann Giblett           dgiblett5@twitpic.com United States West Virginia    America/New_York          1625643366           tablet
+      7        Ruben Deekes        rdeekes6@istockphoto.com United States         Texas     America/Chicago          1647118213           tablet
+      8       Maria Lurcock            mlurcock7@usnews.com United States Massachusetts    America/New_York          1627811521           mobile
+      9 Adeline Misselbrook      amisselbrook8@stanford.edu United States         Texas     America/Chicago          1619607319           tablet
+     10       Alvis McVicar       amcvicar9@accuweather.com United States      Illinois     America/Chicago          1640547185           laptop
+"20-Jan-23 00:45:19" - validations - INFO - Completed print_top_ten_rows for user_details_df
+"20-Jan-23 00:45:19" - run_pre_processing - INFO - Started run_user_details_pre_processing().
+
+"20-Jan-23 00:45:19" - run_pre_processing - INFO - Completed run_user_details_pre_processing().
+
+"20-Jan-23 00:45:19" - validations - INFO - Started print_schema_of_df for user_df
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_id,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_name,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_email,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_country,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_state,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_timezone,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - 	StructField(user_device_type,StringType,true)
+"20-Jan-23 00:45:19" - validations - INFO - Completed print_schema_of_df for user_df
+"20-Jan-23 00:45:19" - validations - INFO - Started print_count_of_df for user_df
+"20-Jan-23 00:45:23" - validations - INFO - Count of user_df is : 1000
+"20-Jan-23 00:45:23" - validations - INFO - Completed print_count_of_df for user_df
+"20-Jan-23 00:45:23" - validations - INFO - Started print_top_ten_rows for user_df
+"20-Jan-23 00:45:23" - validations - INFO - 
+ 	user_id           user_name                    user_email  user_country     user_state       user_timezone user_device_type
+    296       Averell Barke             abarke87@xrea.com United States       Virginia    America/New_York           laptop
+    467       Urbano Trobey            utrobeycy@cnbc.com United States       Illinois     America/Chicago           mobile
+    675        Eda Silliman         esillimaniq@intel.com United States          Texas     America/Chicago           mobile
+    691        Berta Manoch          bmanochj6@rambler.ru United States North Carolina    America/New_York           mobile
+    829      Kelwin Pelchat            kpelchatn0@who.int United States      Minnesota     America/Chicago           mobile
+    125      Bellina Elgood      belgood3g@techcrunch.com United States          Texas     America/Chicago           tablet
+    451 Maximilianus Gumary             mgumaryci@hud.gov United States       Colorado      America/Denver           mobile
+    800       Anny Brithman abrithmanm7@timesonline.co.uk United States        Florida    America/New_York           tablet
+    853         Lila Fossey         lfosseyno@samsung.com United States       Missouri     America/Chicago           laptop
+    944   Enriqueta Ubsdale          eubsdaleq7@hc360.com United States     California America/Los_Angeles           tablet
+"20-Jan-23 00:45:23" - validations - INFO - Completed print_top_ten_rows for user_df
+"20-Jan-23 00:45:23" - run_create_dimensions - INFO - Started create_country_dim()
+"20-Jan-23 00:45:23" - run_create_dimensions - INFO - Completed create_country_dim().
+
+"20-Jan-23 00:45:23" - validations - INFO - Started print_schema_of_df for country_dim_df
+"20-Jan-23 00:45:23" - validations - INFO - 	StructField(country_key,StringType,false)
+"20-Jan-23 00:45:23" - validations - INFO - 	StructField(user_country,StringType,true)
+"20-Jan-23 00:45:23" - validations - INFO - 	StructField(user_state,StringType,true)
+"20-Jan-23 00:45:23" - validations - INFO - 	StructField(user_timezone,StringType,true)
+"20-Jan-23 00:45:23" - validations - INFO - Completed print_schema_of_df for country_dim_df
+"20-Jan-23 00:45:23" - validations - INFO - Started print_count_of_df for country_dim_df
+"20-Jan-23 00:45:28" - validations - INFO - Count of country_dim_df is : 56
+"20-Jan-23 00:45:28" - validations - INFO - Completed print_count_of_df for country_dim_df
+"20-Jan-23 00:45:28" - validations - INFO - Started print_top_ten_rows for country_dim_df
+"20-Jan-23 00:45:31" - validations - INFO - 
+ 	               country_key  user_country   user_state               user_timezone
+     United States_Florida United States      Florida             America/Chicago
+United States_Rhode Island United States Rhode Island            America/New_York
+    United States_Kentucky United States     Kentucky America/Kentucky/Louisville
+  United States_New Jersey United States   New Jersey            America/New_York
+     United States_Alabama United States      Alabama             America/Chicago
+      United States_Alaska United States       Alaska           America/Anchorage
+United States_North Dakota United States North Dakota             America/Chicago
+United States_South Dakota United States South Dakota             America/Chicago
+    United States_Virginia United States     Virginia            America/New_York
+     United States_Indiana United States      Indiana America/Kentucky/Louisville
+"20-Jan-23 00:45:31" - validations - INFO - Completed print_top_ten_rows for country_dim_df
+"20-Jan-23 00:45:35" - run_create_dimensions - INFO - Started create_user_dim().
+"20-Jan-23 00:45:36" - run_create_dimensions - INFO - Completed create_user_dim().
+
+"20-Jan-23 00:45:36" - validations - INFO - Started print_schema_of_df for user_dim_df
+"20-Jan-23 00:45:36" - validations - INFO - 	StructField(user_key,StringType,false)
+"20-Jan-23 00:45:36" - validations - INFO - 	StructField(user_id,StringType,true)
+"20-Jan-23 00:45:36" - validations - INFO - 	StructField(user_name,StringType,true)
+"20-Jan-23 00:45:36" - validations - INFO - 	StructField(user_email,StringType,true)
+"20-Jan-23 00:45:36" - validations - INFO - Completed print_schema_of_df for user_dim_df
+"20-Jan-23 00:45:36" - validations - INFO - Started print_count_of_df for user_dim_df
+"20-Jan-23 00:45:37" - validations - INFO - Count of user_dim_df is : 1000
+"20-Jan-23 00:45:37" - validations - INFO - Completed print_count_of_df for user_dim_df
+"20-Jan-23 00:45:37" - validations - INFO - Started print_top_ten_rows for user_dim_df
+"20-Jan-23 00:45:37" - validations - INFO - 
+ 	               user_key user_id           user_name                    user_email
+      296_Averell Barke     296       Averell Barke             abarke87@xrea.com
+      467_Urbano Trobey     467       Urbano Trobey            utrobeycy@cnbc.com
+       675_Eda Silliman     675        Eda Silliman         esillimaniq@intel.com
+       691_Berta Manoch     691        Berta Manoch          bmanochj6@rambler.ru
+     829_Kelwin Pelchat     829      Kelwin Pelchat            kpelchatn0@who.int
+     125_Bellina Elgood     125      Bellina Elgood      belgood3g@techcrunch.com
+451_Maximilianus Gumary     451 Maximilianus Gumary             mgumaryci@hud.gov
+      800_Anny Brithman     800       Anny Brithman abrithmanm7@timesonline.co.uk
+        853_Lila Fossey     853         Lila Fossey         lfosseyno@samsung.com
+  944_Enriqueta Ubsdale     944   Enriqueta Ubsdale          eubsdaleq7@hc360.com
+"20-Jan-23 00:45:37" - validations - INFO - Completed print_top_ten_rows for user_dim_df
+"20-Jan-23 00:45:39" - run_create_dimensions - INFO - Started create_device_dimension().
+"20-Jan-23 00:45:39" - run_create_dimensions - INFO - Completed create_device_dimension().
+NoneType: None
+"20-Jan-23 00:45:39" - validations - INFO - Started print_schema_of_df for device_dim_df
+"20-Jan-23 00:45:39" - validations - INFO - 	StructField(device_key,StringType,false)
+"20-Jan-23 00:45:39" - validations - INFO - 	StructField(device_type,StringType,true)
+"20-Jan-23 00:45:39" - validations - INFO - Completed print_schema_of_df for device_dim_df
+"20-Jan-23 00:45:39" - validations - INFO - Started print_count_of_df for device_dim_df
+"20-Jan-23 00:45:43" - validations - INFO - Count of device_dim_df is : 3
+"20-Jan-23 00:45:43" - validations - INFO - Completed print_count_of_df for device_dim_df
+"20-Jan-23 00:45:43" - validations - INFO - Started print_top_ten_rows for device_dim_df
+"20-Jan-23 00:45:45" - validations - INFO - 
+ 	                          device_key device_type
+d2ae3ac4-c9f5-4f4f-96f2-fb4dad239e94      mobile
+9dad30f0-6933-4888-9c92-9861d01c5019      tablet
+b9b96e67-c78a-4f0d-b9b5-e49b81e590c3      laptop
+"20-Jan-23 00:45:45" - validations - INFO - Completed print_top_ten_rows for device_dim_df
+"20-Jan-23 00:45:48" - run_ingestion - INFO - Started ingest_campaign_data() for file campaign_details.csv.
+"20-Jan-23 00:45:48" - run_ingestion - INFO - Completed ingest_campaign_data().
+
+"20-Jan-23 00:45:48" - validations - INFO - Started print_count_of_df for campaign_details_df
+"20-Jan-23 00:45:49" - validations - INFO - Count of campaign_details_df is : 1000
+"20-Jan-23 00:45:49" - validations - INFO - Completed print_count_of_df for campaign_details_df
+"20-Jan-23 00:45:49" - validations - INFO - Started print_schema_of_df for campaign_details_df
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_id,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_category,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_agenda_sent,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_agenda_open,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_agenda_click,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(digital_marketing_team,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(course_campaign_start_date,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(course_campaign_end_date,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - 	StructField(marketing_product,StringType,true)
+"20-Jan-23 00:45:49" - validations - INFO - Completed print_schema_of_df for campaign_details_df
+"20-Jan-23 00:45:49" - validations - INFO - Started print_top_ten_rows for campaign_details_df
+"20-Jan-23 00:45:49" - validations - INFO - 
+ 	campaign_id        course_campaign_name    campaign_agenda campaign_category campaign_agenda_sent campaign_agenda_open campaign_agenda_click campaign_agenda_unsubscribe digital_marketing_team course_campaign_start_date course_campaign_end_date marketing_product
+ 8077364845         email_podcasting_86     click_on_email  new_course_added                   98                   23                    10                           2          ind_vtz_digex                   5/1/2022               05/15/2022        podcasting
+ 4802222440   email_email_marketing_121          open_link         marketing                   98                   24                    11                           3          ind_stv_digex                   5/1/2022               05/15/2022   email_marketing
+ 3134692627        email_copywriting_16          open_link  new_course_added                   98                   25                    11                           4          ind_stv_digex                   5/5/2022               05/19/2022       copywriting
+ 2532503475    email_email_marketing_18     click_on_email  new_course_added                   99                   22                    15                           3          ind_bdq_digex                   5/4/2022               05/18/2022   email_marketing
+ 3709754291         email_podcasting_14          open_link  new_course_added                   98                   23                    13                           1          ind_vtz_digex                   5/8/2022               05/22/2022        podcasting
+ 3897419106   email_google_analytics_79          open_link         marketing                   98                   20                    13                           3          ind_ccu_digex                   5/7/2022               05/21/2022  google_analytics
+ 6911279666         email_copywriting_1          open_link         marketing                   98                   22                    11                           3          ind_del_digex                   5/4/2022               05/18/2022       copywriting
+ 9281260948 email_youtube_marketing_177 register_to_course         marketing                  100                   22                    11                           3          ind_vtz_digex                   5/2/2022               05/16/2022 youtube_marketing
+ 6998082444        email_podcasting_107 register_to_course  new_course_added                   99                   25                    14                           3          ind_bdq_digex                   5/8/2022               05/22/2022        podcasting
+ 6003891300   email_email_marketing_107          open_link         marketing                  100                   23                    10                           3          ind_vtz_digex                   5/3/2022               05/17/2022   email_marketing
+"20-Jan-23 00:45:49" - validations - INFO - Completed print_top_ten_rows for campaign_details_df
+"20-Jan-23 00:45:49" - run_pre_processing - INFO - Started run_campaign_pre_processing.
+"20-Jan-23 00:45:49" - run_pre_processing - INFO - Completed run_campaign_pre_processing().
+
+"20-Jan-23 00:45:49" - validations - INFO - Started print_count_of_df for campaign_df
