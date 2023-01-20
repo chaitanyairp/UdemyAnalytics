@@ -1,29 +1,29 @@
-"20-Jan-23 00:48:36" - __main__ - INFO - Started executing main().
-"20-Jan-23 00:48:36" - create_objects - INFO - Started get_spark_session().
-"20-Jan-23 00:48:50" - create_objects - INFO - Completed get_spark_session().
+"20-Jan-23 23:53:37" - __main__ - INFO - Started executing main().
+"20-Jan-23 23:53:37" - create_objects - INFO - Started get_spark_session().
+"20-Jan-23 23:53:51" - create_objects - INFO - Completed get_spark_session().
 
-"20-Jan-23 00:48:50" - validations - INFO - Started validate_spark_object().
-"20-Jan-23 00:48:55" - validations - INFO - Validating spark object by printing current date
-"20-Jan-23 00:48:55" - validations - INFO - Current date is : [Row(current_date()=datetime.date(2023, 1, 20))]
-"20-Jan-23 00:48:55" - validations - INFO - Completed validate_spark_object().
+"20-Jan-23 23:53:51" - validations - INFO - Started validate_spark_object().
+"20-Jan-23 23:53:56" - validations - INFO - Validating spark object by printing current date
+"20-Jan-23 23:53:56" - validations - INFO - Current date is : [Row(current_date()=datetime.date(2023, 1, 20))]
+"20-Jan-23 23:53:56" - validations - INFO - Completed validate_spark_object().
 
-"20-Jan-23 00:48:55" - run_ingestion - INFO - Started ingesting the file user_details
-"20-Jan-23 00:48:55" - run_ingestion - INFO - Completed ingesting the file user_details
-"20-Jan-23 00:48:55" - validations - INFO - Started print_count_of_df for user_details_df
-"20-Jan-23 00:48:56" - validations - INFO - Count of user_details_df is : 1000
-"20-Jan-23 00:48:56" - validations - INFO - Completed print_count_of_df for user_details_df
-"20-Jan-23 00:48:56" - validations - INFO - Started print_schema_of_df for user_details_df
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_id,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_name,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_email,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_country,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_state,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_timezone,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_last_activity,IntegerType,true)
-"20-Jan-23 00:48:56" - validations - INFO - 	StructField(user_device_type,StringType,true)
-"20-Jan-23 00:48:56" - validations - INFO - Completed print_schema_of_df for user_details_df
-"20-Jan-23 00:48:56" - validations - INFO - Started print_top_ten_rows for user_details_df
-"20-Jan-23 00:48:56" - validations - INFO - 
+"20-Jan-23 23:53:56" - run_ingestion - INFO - Started ingesting the file user_details
+"20-Jan-23 23:53:56" - run_ingestion - INFO - Completed ingesting the file user_details
+"20-Jan-23 23:53:56" - validations - INFO - Started print_count_of_df for user_details_df
+"20-Jan-23 23:53:57" - validations - INFO - Count of user_details_df is : 1000
+"20-Jan-23 23:53:57" - validations - INFO - Completed print_count_of_df for user_details_df
+"20-Jan-23 23:53:57" - validations - INFO - Started print_schema_of_df for user_details_df
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_id,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_name,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_email,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_country,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_state,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_timezone,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_last_activity,IntegerType,true)
+"20-Jan-23 23:53:57" - validations - INFO - 	StructField(user_device_type,StringType,true)
+"20-Jan-23 23:53:57" - validations - INFO - Completed print_schema_of_df for user_details_df
+"20-Jan-23 23:53:57" - validations - INFO - Started print_top_ten_rows for user_details_df
+"20-Jan-23 23:53:57" - validations - INFO - 
  	user_id           user_name                      user_email  user_country    user_state       user_timezone  user_last_activity user_device_type
       1         Luce Puckey           lpuckey0@hatena.ne.jp United States      Illinois     America/Chicago          1639925378           tablet
       2    Demetrius Troyes            dtroyes1@webnode.com United States    California America/Los_Angeles          1626710047           laptop
@@ -35,25 +35,25 @@
       8       Maria Lurcock            mlurcock7@usnews.com United States Massachusetts    America/New_York          1627811521           mobile
       9 Adeline Misselbrook      amisselbrook8@stanford.edu United States         Texas     America/Chicago          1619607319           tablet
      10       Alvis McVicar       amcvicar9@accuweather.com United States      Illinois     America/Chicago          1640547185           laptop
-"20-Jan-23 00:48:56" - validations - INFO - Completed print_top_ten_rows for user_details_df
-"20-Jan-23 00:48:56" - run_pre_processing - INFO - Started run_user_details_pre_processing().
+"20-Jan-23 23:53:57" - validations - INFO - Completed print_top_ten_rows for user_details_df
+"20-Jan-23 23:53:57" - run_pre_processing - INFO - Started run_user_details_pre_processing().
 
-"20-Jan-23 00:48:57" - run_pre_processing - INFO - Completed run_user_details_pre_processing().
+"20-Jan-23 23:53:58" - run_pre_processing - INFO - Completed run_user_details_pre_processing().
 
-"20-Jan-23 00:48:57" - validations - INFO - Started print_schema_of_df for user_df
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_id,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_name,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_email,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_country,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_state,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_timezone,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - 	StructField(user_device_type,StringType,true)
-"20-Jan-23 00:48:57" - validations - INFO - Completed print_schema_of_df for user_df
-"20-Jan-23 00:48:57" - validations - INFO - Started print_count_of_df for user_df
-"20-Jan-23 00:49:00" - validations - INFO - Count of user_df is : 1000
-"20-Jan-23 00:49:00" - validations - INFO - Completed print_count_of_df for user_df
-"20-Jan-23 00:49:00" - validations - INFO - Started print_top_ten_rows for user_df
-"20-Jan-23 00:49:00" - validations - INFO - 
+"20-Jan-23 23:53:58" - validations - INFO - Started print_schema_of_df for user_df
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_id,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_name,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_email,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_country,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_state,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_timezone,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - 	StructField(user_device_type,StringType,true)
+"20-Jan-23 23:53:58" - validations - INFO - Completed print_schema_of_df for user_df
+"20-Jan-23 23:53:58" - validations - INFO - Started print_count_of_df for user_df
+"20-Jan-23 23:54:04" - validations - INFO - Count of user_df is : 1000
+"20-Jan-23 23:54:04" - validations - INFO - Completed print_count_of_df for user_df
+"20-Jan-23 23:54:04" - validations - INFO - Started print_top_ten_rows for user_df
+"20-Jan-23 23:54:04" - validations - INFO - 
  	user_id           user_name                    user_email  user_country     user_state       user_timezone user_device_type
     296       Averell Barke             abarke87@xrea.com United States       Virginia    America/New_York           laptop
     467       Urbano Trobey            utrobeycy@cnbc.com United States       Illinois     America/Chicago           mobile
@@ -65,21 +65,21 @@
     800       Anny Brithman abrithmanm7@timesonline.co.uk United States        Florida    America/New_York           tablet
     853         Lila Fossey         lfosseyno@samsung.com United States       Missouri     America/Chicago           laptop
     944   Enriqueta Ubsdale          eubsdaleq7@hc360.com United States     California America/Los_Angeles           tablet
-"20-Jan-23 00:49:00" - validations - INFO - Completed print_top_ten_rows for user_df
-"20-Jan-23 00:49:00" - run_create_dimensions - INFO - Started create_country_dim()
-"20-Jan-23 00:49:01" - run_create_dimensions - INFO - Completed create_country_dim().
+"20-Jan-23 23:54:04" - validations - INFO - Completed print_top_ten_rows for user_df
+"20-Jan-23 23:54:04" - run_create_dimensions - INFO - Started create_country_dim()
+"20-Jan-23 23:54:04" - run_create_dimensions - INFO - Completed create_country_dim().
 
-"20-Jan-23 00:49:01" - validations - INFO - Started print_schema_of_df for country_dim_df
-"20-Jan-23 00:49:01" - validations - INFO - 	StructField(country_key,StringType,false)
-"20-Jan-23 00:49:01" - validations - INFO - 	StructField(user_country,StringType,true)
-"20-Jan-23 00:49:01" - validations - INFO - 	StructField(user_state,StringType,true)
-"20-Jan-23 00:49:01" - validations - INFO - 	StructField(user_timezone,StringType,true)
-"20-Jan-23 00:49:01" - validations - INFO - Completed print_schema_of_df for country_dim_df
-"20-Jan-23 00:49:01" - validations - INFO - Started print_count_of_df for country_dim_df
-"20-Jan-23 00:49:05" - validations - INFO - Count of country_dim_df is : 56
-"20-Jan-23 00:49:05" - validations - INFO - Completed print_count_of_df for country_dim_df
-"20-Jan-23 00:49:05" - validations - INFO - Started print_top_ten_rows for country_dim_df
-"20-Jan-23 00:49:07" - validations - INFO - 
+"20-Jan-23 23:54:04" - validations - INFO - Started print_schema_of_df for country_dim_df
+"20-Jan-23 23:54:04" - validations - INFO - 	StructField(country_key,StringType,false)
+"20-Jan-23 23:54:04" - validations - INFO - 	StructField(user_country,StringType,true)
+"20-Jan-23 23:54:04" - validations - INFO - 	StructField(user_state,StringType,true)
+"20-Jan-23 23:54:04" - validations - INFO - 	StructField(user_timezone,StringType,true)
+"20-Jan-23 23:54:04" - validations - INFO - Completed print_schema_of_df for country_dim_df
+"20-Jan-23 23:54:04" - validations - INFO - Started print_count_of_df for country_dim_df
+"20-Jan-23 23:54:10" - validations - INFO - Count of country_dim_df is : 56
+"20-Jan-23 23:54:10" - validations - INFO - Completed print_count_of_df for country_dim_df
+"20-Jan-23 23:54:10" - validations - INFO - Started print_top_ten_rows for country_dim_df
+"20-Jan-23 23:54:13" - validations - INFO - 
  	               country_key  user_country   user_state               user_timezone
      United States_Florida United States      Florida             America/Chicago
 United States_Rhode Island United States Rhode Island            America/New_York
@@ -91,21 +91,21 @@ United States_North Dakota United States North Dakota             America/Chicag
 United States_South Dakota United States South Dakota             America/Chicago
     United States_Virginia United States     Virginia            America/New_York
      United States_Indiana United States      Indiana America/Kentucky/Louisville
-"20-Jan-23 00:49:07" - validations - INFO - Completed print_top_ten_rows for country_dim_df
-"20-Jan-23 00:49:11" - run_create_dimensions - INFO - Started create_user_dim().
-"20-Jan-23 00:49:11" - run_create_dimensions - INFO - Completed create_user_dim().
+"20-Jan-23 23:54:13" - validations - INFO - Completed print_top_ten_rows for country_dim_df
+"20-Jan-23 23:54:17" - run_create_dimensions - INFO - Started create_user_dim().
+"20-Jan-23 23:54:17" - run_create_dimensions - INFO - Completed create_user_dim().
 
-"20-Jan-23 00:49:11" - validations - INFO - Started print_schema_of_df for user_dim_df
-"20-Jan-23 00:49:11" - validations - INFO - 	StructField(user_key,StringType,false)
-"20-Jan-23 00:49:11" - validations - INFO - 	StructField(user_id,StringType,true)
-"20-Jan-23 00:49:11" - validations - INFO - 	StructField(user_name,StringType,true)
-"20-Jan-23 00:49:11" - validations - INFO - 	StructField(user_email,StringType,true)
-"20-Jan-23 00:49:11" - validations - INFO - Completed print_schema_of_df for user_dim_df
-"20-Jan-23 00:49:11" - validations - INFO - Started print_count_of_df for user_dim_df
-"20-Jan-23 00:49:13" - validations - INFO - Count of user_dim_df is : 1000
-"20-Jan-23 00:49:13" - validations - INFO - Completed print_count_of_df for user_dim_df
-"20-Jan-23 00:49:13" - validations - INFO - Started print_top_ten_rows for user_dim_df
-"20-Jan-23 00:49:13" - validations - INFO - 
+"20-Jan-23 23:54:17" - validations - INFO - Started print_schema_of_df for user_dim_df
+"20-Jan-23 23:54:17" - validations - INFO - 	StructField(user_key,StringType,false)
+"20-Jan-23 23:54:17" - validations - INFO - 	StructField(user_id,StringType,true)
+"20-Jan-23 23:54:17" - validations - INFO - 	StructField(user_name,StringType,true)
+"20-Jan-23 23:54:17" - validations - INFO - 	StructField(user_email,StringType,true)
+"20-Jan-23 23:54:17" - validations - INFO - Completed print_schema_of_df for user_dim_df
+"20-Jan-23 23:54:17" - validations - INFO - Started print_count_of_df for user_dim_df
+"20-Jan-23 23:54:19" - validations - INFO - Count of user_dim_df is : 1000
+"20-Jan-23 23:54:19" - validations - INFO - Completed print_count_of_df for user_dim_df
+"20-Jan-23 23:54:19" - validations - INFO - Started print_top_ten_rows for user_dim_df
+"20-Jan-23 23:54:19" - validations - INFO - 
  	               user_key user_id           user_name                    user_email
       296_Averell Barke     296       Averell Barke             abarke87@xrea.com
       467_Urbano Trobey     467       Urbano Trobey            utrobeycy@cnbc.com
@@ -117,46 +117,46 @@ United States_South Dakota United States South Dakota             America/Chicag
       800_Anny Brithman     800       Anny Brithman abrithmanm7@timesonline.co.uk
         853_Lila Fossey     853         Lila Fossey         lfosseyno@samsung.com
   944_Enriqueta Ubsdale     944   Enriqueta Ubsdale          eubsdaleq7@hc360.com
-"20-Jan-23 00:49:13" - validations - INFO - Completed print_top_ten_rows for user_dim_df
-"20-Jan-23 00:49:15" - run_create_dimensions - INFO - Started create_device_dimension().
-"20-Jan-23 00:49:15" - run_create_dimensions - INFO - Completed create_device_dimension().
+"20-Jan-23 23:54:19" - validations - INFO - Completed print_top_ten_rows for user_dim_df
+"20-Jan-23 23:54:21" - run_create_dimensions - INFO - Started create_device_dimension().
+"20-Jan-23 23:54:21" - run_create_dimensions - INFO - Completed create_device_dimension().
 NoneType: None
-"20-Jan-23 00:49:15" - validations - INFO - Started print_schema_of_df for device_dim_df
-"20-Jan-23 00:49:15" - validations - INFO - 	StructField(device_key,StringType,false)
-"20-Jan-23 00:49:15" - validations - INFO - 	StructField(device_type,StringType,true)
-"20-Jan-23 00:49:15" - validations - INFO - Completed print_schema_of_df for device_dim_df
-"20-Jan-23 00:49:15" - validations - INFO - Started print_count_of_df for device_dim_df
-"20-Jan-23 00:49:18" - validations - INFO - Count of device_dim_df is : 3
-"20-Jan-23 00:49:18" - validations - INFO - Completed print_count_of_df for device_dim_df
-"20-Jan-23 00:49:18" - validations - INFO - Started print_top_ten_rows for device_dim_df
-"20-Jan-23 00:49:21" - validations - INFO - 
+"20-Jan-23 23:54:21" - validations - INFO - Started print_schema_of_df for device_dim_df
+"20-Jan-23 23:54:21" - validations - INFO - 	StructField(device_key,StringType,false)
+"20-Jan-23 23:54:21" - validations - INFO - 	StructField(device_type,StringType,true)
+"20-Jan-23 23:54:21" - validations - INFO - Completed print_schema_of_df for device_dim_df
+"20-Jan-23 23:54:21" - validations - INFO - Started print_count_of_df for device_dim_df
+"20-Jan-23 23:54:25" - validations - INFO - Count of device_dim_df is : 3
+"20-Jan-23 23:54:25" - validations - INFO - Completed print_count_of_df for device_dim_df
+"20-Jan-23 23:54:25" - validations - INFO - Started print_top_ten_rows for device_dim_df
+"20-Jan-23 23:54:28" - validations - INFO - 
  	                          device_key device_type
-aeee61fe-daab-4d74-ba31-c3c5948effe6      mobile
-15fea740-2c7e-4ca0-a74a-d6163ec3cd05      tablet
-2f3b7fd5-295a-4167-9292-88950f2e925b      laptop
-"20-Jan-23 00:49:21" - validations - INFO - Completed print_top_ten_rows for device_dim_df
-"20-Jan-23 00:49:24" - run_ingestion - INFO - Started ingest_campaign_data() for file campaign_details.csv.
-"20-Jan-23 00:49:24" - run_ingestion - INFO - Completed ingest_campaign_data().
+e4c3f5da-163f-460d-9e65-b69f34a697ac      mobile
+7b7901d3-47cb-4ac8-9d40-230847220b41      tablet
+0b34e8eb-10a8-4dbd-847a-f239b35bef9d      laptop
+"20-Jan-23 23:54:28" - validations - INFO - Completed print_top_ten_rows for device_dim_df
+"20-Jan-23 23:54:32" - run_ingestion - INFO - Started ingest_campaign_data() for file campaign_details.csv.
+"20-Jan-23 23:54:32" - run_ingestion - INFO - Completed ingest_campaign_data().
 
-"20-Jan-23 00:49:24" - validations - INFO - Started print_count_of_df for campaign_details_df
-"20-Jan-23 00:49:24" - validations - INFO - Count of campaign_details_df is : 1000
-"20-Jan-23 00:49:24" - validations - INFO - Completed print_count_of_df for campaign_details_df
-"20-Jan-23 00:49:24" - validations - INFO - Started print_schema_of_df for campaign_details_df
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_id,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_category,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_agenda_sent,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_agenda_open,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_agenda_click,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(digital_marketing_team,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(course_campaign_start_date,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(course_campaign_end_date,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - 	StructField(marketing_product,StringType,true)
-"20-Jan-23 00:49:24" - validations - INFO - Completed print_schema_of_df for campaign_details_df
-"20-Jan-23 00:49:24" - validations - INFO - Started print_top_ten_rows for campaign_details_df
-"20-Jan-23 00:49:24" - validations - INFO - 
+"20-Jan-23 23:54:32" - validations - INFO - Started print_count_of_df for campaign_details_df
+"20-Jan-23 23:54:32" - validations - INFO - Count of campaign_details_df is : 1000
+"20-Jan-23 23:54:32" - validations - INFO - Completed print_count_of_df for campaign_details_df
+"20-Jan-23 23:54:32" - validations - INFO - Started print_schema_of_df for campaign_details_df
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_id,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_category,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_agenda_sent,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_agenda_open,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_agenda_click,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(digital_marketing_team,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(course_campaign_start_date,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(course_campaign_end_date,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - 	StructField(marketing_product,StringType,true)
+"20-Jan-23 23:54:32" - validations - INFO - Completed print_schema_of_df for campaign_details_df
+"20-Jan-23 23:54:32" - validations - INFO - Started print_top_ten_rows for campaign_details_df
+"20-Jan-23 23:54:32" - validations - INFO - 
  	campaign_id        course_campaign_name    campaign_agenda campaign_category campaign_agenda_sent campaign_agenda_open campaign_agenda_click campaign_agenda_unsubscribe digital_marketing_team course_campaign_start_date course_campaign_end_date marketing_product
  8077364845         email_podcasting_86     click_on_email  new_course_added                   98                   23                    10                           2          ind_vtz_digex                   5/1/2022               05/15/2022        podcasting
  4802222440   email_email_marketing_121          open_link         marketing                   98                   24                    11                           3          ind_stv_digex                   5/1/2022               05/15/2022   email_marketing
@@ -168,88 +168,88 @@ aeee61fe-daab-4d74-ba31-c3c5948effe6      mobile
  9281260948 email_youtube_marketing_177 register_to_course         marketing                  100                   22                    11                           3          ind_vtz_digex                   5/2/2022               05/16/2022 youtube_marketing
  6998082444        email_podcasting_107 register_to_course  new_course_added                   99                   25                    14                           3          ind_bdq_digex                   5/8/2022               05/22/2022        podcasting
  6003891300   email_email_marketing_107          open_link         marketing                  100                   23                    10                           3          ind_vtz_digex                   5/3/2022               05/17/2022   email_marketing
-"20-Jan-23 00:49:24" - validations - INFO - Completed print_top_ten_rows for campaign_details_df
-"20-Jan-23 00:49:24" - run_pre_processing - INFO - Started run_campaign_pre_processing.
-"20-Jan-23 00:49:24" - run_pre_processing - INFO - Completed run_campaign_pre_processing().
+"20-Jan-23 23:54:32" - validations - INFO - Completed print_top_ten_rows for campaign_details_df
+"20-Jan-23 23:54:32" - run_pre_processing - INFO - Started run_campaign_pre_processing.
+"20-Jan-23 23:54:32" - run_pre_processing - INFO - Completed run_campaign_pre_processing().
 
-"20-Jan-23 00:49:24" - validations - INFO - Started print_count_of_df for campaign_df
-"20-Jan-23 00:49:27" - validations - INFO - Count of campaign_df is : 1000
-"20-Jan-23 00:49:27" - validations - INFO - Completed print_count_of_df for campaign_df
-"20-Jan-23 00:49:27" - validations - INFO - Started print_schema_of_df for campaign_df
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_key,StringType,false)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_id,DoubleType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_category,StringType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_agenda_sent,IntegerType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_agenda_open,IntegerType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_agenda_click,IntegerType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,IntegerType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(digital_marketing_team,StringType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_start_date,DateType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(campaign_end_date,DateType,true)
-"20-Jan-23 00:49:27" - validations - INFO - 	StructField(marketing_product,StringType,true)
-"20-Jan-23 00:49:27" - validations - INFO - Completed print_schema_of_df for campaign_df
-"20-Jan-23 00:49:27" - validations - INFO - Started print_top_ten_rows for campaign_df
-"20-Jan-23 00:49:27" - validations - INFO - 
- 	                           campaign_key  campaign_id         course_campaign_name    campaign_agenda campaign_category  campaign_agenda_sent  campaign_agenda_open  campaign_agenda_click  campaign_agenda_unsubscribe digital_marketing_team campaign_start_date campaign_end_date  marketing_product
-        0389424889_email_podcasting_111  389424889.0         email_podcasting_111 register_to_course  new_course_added                    98                    22                     12                            2          ind_vtz_digex          2022-05-05        2022-05-19         podcasting
-         0669961124_email_podcasting_87  669961124.0          email_podcasting_87     click_on_email  new_course_added                   100                    23                     15                            1          ind_vtz_digex          2022-05-03        2022-05-17         podcasting
-       6101859819_email_copywriting_154 6101859819.0        email_copywriting_154          open_link         marketing                    98                    24                     10                            3          ind_vtz_digex          2022-05-04        2022-05-18        copywriting
-        6156899960_email_podcasting_190 6156899960.0         email_podcasting_190          open_link         marketing                    99                    23                     14                            1          ind_vtz_digex          2022-05-02        2022-05-16         podcasting
-         7551820256_email_podcasting_98 7551820256.0          email_podcasting_98          open_link  new_course_added                    99                    24                     15                            4          ind_vtz_digex          2022-05-08        2022-05-22         podcasting
-    8358416261_email_email_marketing_52 8358416261.0     email_email_marketing_52          open_link         marketing                   100                    24                     14                            1          ind_bdq_digex          2022-05-02        2022-05-16    email_marketing
-        9431072599_email_podcasting_142 9431072599.0         email_podcasting_142          open_link  new_course_added                   100                    23                     14                            2          ind_myq_digex          2022-05-08        2022-05-22         podcasting
-   9918255978_email_youtube_marketing_8 9918255978.0    email_youtube_marketing_8     click_on_email  new_course_added                    98                    24                     14                            3          ind_vtz_digex          2022-05-04        2022-05-18  youtube_marketing
-3741060100_email_marketing_strategy_137 3741060100.0 email_marketing_strategy_137          open_link         marketing                    99                    25                     11                            4          ind_stv_digex          2022-05-05        2022-05-19 marketing_strategy
- 4074461544_email_youtube_marketing_171 4074461544.0  email_youtube_marketing_171 register_to_course  new_course_added                   100                    20                     10                            3          ind_vtz_digex          2022-05-04        2022-05-18  youtube_marketing
-"20-Jan-23 00:49:27" - validations - INFO - Completed print_top_ten_rows for campaign_df
-"20-Jan-23 00:49:27" - run_create_dimensions - INFO - Started create_campaign_dimension().
-"20-Jan-23 00:49:27" - run_create_dimensions - INFO - Completed create_campaign_dimension().
+"20-Jan-23 23:54:32" - validations - INFO - Started print_count_of_df for campaign_df
+"20-Jan-23 23:54:36" - validations - INFO - Count of campaign_df is : 1000
+"20-Jan-23 23:54:36" - validations - INFO - Completed print_count_of_df for campaign_df
+"20-Jan-23 23:54:36" - validations - INFO - Started print_schema_of_df for campaign_df
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_key,StringType,false)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_id,StringType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_category,StringType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_agenda_sent,IntegerType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_agenda_open,IntegerType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_agenda_click,IntegerType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,IntegerType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(digital_marketing_team,StringType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_start_date,DateType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(campaign_end_date,DateType,true)
+"20-Jan-23 23:54:36" - validations - INFO - 	StructField(marketing_product,StringType,true)
+"20-Jan-23 23:54:36" - validations - INFO - Completed print_schema_of_df for campaign_df
+"20-Jan-23 23:54:36" - validations - INFO - Started print_top_ten_rows for campaign_df
+"20-Jan-23 23:54:36" - validations - INFO - 
+ 	                          campaign_key campaign_id        course_campaign_name    campaign_agenda campaign_category  campaign_agenda_sent  campaign_agenda_open  campaign_agenda_click  campaign_agenda_unsubscribe digital_marketing_team campaign_start_date campaign_end_date marketing_product
+  1338052918_email_email_marketing_130  1338052918   email_email_marketing_130 register_to_course         marketing                   100                    23                     11                            1          ind_bdq_digex          2022-05-04        2022-05-18   email_marketing
+2599828201_email_youtube_marketing_151  2599828201 email_youtube_marketing_151 register_to_course  new_course_added                   100                    20                     10                            2          ind_stv_digex          2022-05-01        2022-05-15 youtube_marketing
+        3569800237_email_podcasting_75  3569800237         email_podcasting_75     click_on_email  new_course_added                    99                    23                     15                            1          ind_vtz_digex          2022-05-04        2022-05-18        podcasting
+       3916918079_email_podcasting_134  3916918079        email_podcasting_134          open_link         marketing                   100                    22                     13                            4          ind_ccu_digex          2022-05-06        2022-05-20        podcasting
+ 6022348307_email_youtube_marketing_29  6022348307  email_youtube_marketing_29     click_on_email         marketing                    98                    22                     13                            4          ind_vtz_digex          2022-05-02        2022-05-16 youtube_marketing
+ 6173962268_email_youtube_marketing_35  6173962268  email_youtube_marketing_35          open_link  new_course_added                   100                    22                     12                            1          ind_bdq_digex          2022-05-02        2022-05-16 youtube_marketing
+      8465352771_email_copywriting_183  8465352771       email_copywriting_183     click_on_email         marketing                   100                    20                     13                            3          ind_stv_digex          2022-05-08        2022-05-22       copywriting
+  4942708567_email_email_marketing_136  4942708567   email_email_marketing_136          open_link  new_course_added                    99                    22                     11                            3          ind_vtz_digex          2022-05-03        2022-05-17   email_marketing
+  9868487781_email_email_marketing_193  9868487781   email_email_marketing_193          open_link  new_course_added                   100                    24                     14                            3          ind_vtz_digex          2022-05-07        2022-05-21   email_marketing
+        0221463208_email_podcasting_60  0221463208         email_podcasting_60          open_link  new_course_added                    98                    23                     10                            3          ind_vtz_digex          2022-05-02        2022-05-16        podcasting
+"20-Jan-23 23:54:36" - validations - INFO - Completed print_top_ten_rows for campaign_df
+"20-Jan-23 23:54:36" - run_create_dimensions - INFO - Started create_campaign_dimension().
+"20-Jan-23 23:54:36" - run_create_dimensions - INFO - Completed create_campaign_dimension().
 
-"20-Jan-23 00:49:27" - validations - INFO - Started print_count_of_df for campaign_dim_df
-"20-Jan-23 00:49:28" - validations - INFO - Count of campaign_dim_df is : 1000
-"20-Jan-23 00:49:28" - validations - INFO - Completed print_count_of_df for campaign_dim_df
-"20-Jan-23 00:49:28" - validations - INFO - Started print_schema_of_df for campaign_dim_df
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_key,StringType,false)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_id,DoubleType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_start_date,DateType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_end_date,DateType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_category,StringType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_agenda_sent,IntegerType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_agenda_open,IntegerType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_agenda_click,IntegerType,true)
-"20-Jan-23 00:49:28" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,IntegerType,true)
-"20-Jan-23 00:49:28" - validations - INFO - Completed print_schema_of_df for campaign_dim_df
-"20-Jan-23 00:49:28" - validations - INFO - Started print_top_ten_rows for campaign_dim_df
-"20-Jan-23 00:49:28" - validations - INFO - 
- 	                           campaign_key  campaign_id         course_campaign_name campaign_start_date campaign_end_date    campaign_agenda campaign_category  campaign_agenda_sent  campaign_agenda_open  campaign_agenda_click  campaign_agenda_unsubscribe
-        0389424889_email_podcasting_111  389424889.0         email_podcasting_111          2022-05-05        2022-05-19 register_to_course  new_course_added                    98                    22                     12                            2
-         0669961124_email_podcasting_87  669961124.0          email_podcasting_87          2022-05-03        2022-05-17     click_on_email  new_course_added                   100                    23                     15                            1
-       6101859819_email_copywriting_154 6101859819.0        email_copywriting_154          2022-05-04        2022-05-18          open_link         marketing                    98                    24                     10                            3
-        6156899960_email_podcasting_190 6156899960.0         email_podcasting_190          2022-05-02        2022-05-16          open_link         marketing                    99                    23                     14                            1
-         7551820256_email_podcasting_98 7551820256.0          email_podcasting_98          2022-05-08        2022-05-22          open_link  new_course_added                    99                    24                     15                            4
-    8358416261_email_email_marketing_52 8358416261.0     email_email_marketing_52          2022-05-02        2022-05-16          open_link         marketing                   100                    24                     14                            1
-        9431072599_email_podcasting_142 9431072599.0         email_podcasting_142          2022-05-08        2022-05-22          open_link  new_course_added                   100                    23                     14                            2
-   9918255978_email_youtube_marketing_8 9918255978.0    email_youtube_marketing_8          2022-05-04        2022-05-18     click_on_email  new_course_added                    98                    24                     14                            3
-3741060100_email_marketing_strategy_137 3741060100.0 email_marketing_strategy_137          2022-05-05        2022-05-19          open_link         marketing                    99                    25                     11                            4
- 4074461544_email_youtube_marketing_171 4074461544.0  email_youtube_marketing_171          2022-05-04        2022-05-18 register_to_course  new_course_added                   100                    20                     10                            3
-"20-Jan-23 00:49:28" - validations - INFO - Completed print_top_ten_rows for campaign_dim_df
-"20-Jan-23 00:49:30" - run_create_dimensions - INFO - Started create_marketing_dimension().
-"20-Jan-23 00:49:30" - run_create_dimensions - INFO - Completed create_marketing_dimension().
+"20-Jan-23 23:54:36" - validations - INFO - Started print_count_of_df for campaign_dim_df
+"20-Jan-23 23:54:37" - validations - INFO - Count of campaign_dim_df is : 1000
+"20-Jan-23 23:54:37" - validations - INFO - Completed print_count_of_df for campaign_dim_df
+"20-Jan-23 23:54:37" - validations - INFO - Started print_schema_of_df for campaign_dim_df
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_key,StringType,false)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_id,StringType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(course_campaign_name,StringType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_start_date,DateType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_end_date,DateType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_agenda,StringType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_category,StringType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_agenda_sent,IntegerType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_agenda_open,IntegerType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_agenda_click,IntegerType,true)
+"20-Jan-23 23:54:37" - validations - INFO - 	StructField(campaign_agenda_unsubscribe,IntegerType,true)
+"20-Jan-23 23:54:37" - validations - INFO - Completed print_schema_of_df for campaign_dim_df
+"20-Jan-23 23:54:37" - validations - INFO - Started print_top_ten_rows for campaign_dim_df
+"20-Jan-23 23:54:37" - validations - INFO - 
+ 	                          campaign_key campaign_id        course_campaign_name campaign_start_date campaign_end_date    campaign_agenda campaign_category  campaign_agenda_sent  campaign_agenda_open  campaign_agenda_click  campaign_agenda_unsubscribe
+  1338052918_email_email_marketing_130  1338052918   email_email_marketing_130          2022-05-04        2022-05-18 register_to_course         marketing                   100                    23                     11                            1
+2599828201_email_youtube_marketing_151  2599828201 email_youtube_marketing_151          2022-05-01        2022-05-15 register_to_course  new_course_added                   100                    20                     10                            2
+        3569800237_email_podcasting_75  3569800237         email_podcasting_75          2022-05-04        2022-05-18     click_on_email  new_course_added                    99                    23                     15                            1
+       3916918079_email_podcasting_134  3916918079        email_podcasting_134          2022-05-06        2022-05-20          open_link         marketing                   100                    22                     13                            4
+ 6022348307_email_youtube_marketing_29  6022348307  email_youtube_marketing_29          2022-05-02        2022-05-16     click_on_email         marketing                    98                    22                     13                            4
+ 6173962268_email_youtube_marketing_35  6173962268  email_youtube_marketing_35          2022-05-02        2022-05-16          open_link  new_course_added                   100                    22                     12                            1
+      8465352771_email_copywriting_183  8465352771       email_copywriting_183          2022-05-08        2022-05-22     click_on_email         marketing                   100                    20                     13                            3
+  4942708567_email_email_marketing_136  4942708567   email_email_marketing_136          2022-05-03        2022-05-17          open_link  new_course_added                    99                    22                     11                            3
+  9868487781_email_email_marketing_193  9868487781   email_email_marketing_193          2022-05-07        2022-05-21          open_link  new_course_added                   100                    24                     14                            3
+        0221463208_email_podcasting_60  0221463208         email_podcasting_60          2022-05-02        2022-05-16          open_link  new_course_added                    98                    23                     10                            3
+"20-Jan-23 23:54:37" - validations - INFO - Completed print_top_ten_rows for campaign_dim_df
+"20-Jan-23 23:54:40" - run_create_dimensions - INFO - Started create_marketing_dimension().
+"20-Jan-23 23:54:40" - run_create_dimensions - INFO - Completed create_marketing_dimension().
 
-"20-Jan-23 00:49:30" - validations - INFO - Started print_count_of_df for marketing_dim_df
-"20-Jan-23 00:49:33" - validations - INFO - Count of marketing_dim_df is : 10
-"20-Jan-23 00:49:33" - validations - INFO - Completed print_count_of_df for marketing_dim_df
-"20-Jan-23 00:49:33" - validations - INFO - Started print_schema_of_df for marketing_dim_df
-"20-Jan-23 00:49:33" - validations - INFO - 	StructField(marketing_key,IntegerType,true)
-"20-Jan-23 00:49:33" - validations - INFO - 	StructField(marketing_team,StringType,true)
-"20-Jan-23 00:49:33" - validations - INFO - 	StructField(marketing_place,StringType,true)
-"20-Jan-23 00:49:33" - validations - INFO - Completed print_schema_of_df for marketing_dim_df
-"20-Jan-23 00:49:33" - validations - INFO - Started print_top_ten_rows for marketing_dim_df
-"20-Jan-23 00:49:35" - validations - INFO - 
+"20-Jan-23 23:54:40" - validations - INFO - Started print_count_of_df for marketing_dim_df
+"20-Jan-23 23:54:43" - validations - INFO - Count of marketing_dim_df is : 10
+"20-Jan-23 23:54:43" - validations - INFO - Completed print_count_of_df for marketing_dim_df
+"20-Jan-23 23:54:43" - validations - INFO - Started print_schema_of_df for marketing_dim_df
+"20-Jan-23 23:54:43" - validations - INFO - 	StructField(marketing_key,IntegerType,true)
+"20-Jan-23 23:54:43" - validations - INFO - 	StructField(marketing_team,StringType,true)
+"20-Jan-23 23:54:43" - validations - INFO - 	StructField(marketing_place,StringType,true)
+"20-Jan-23 23:54:43" - validations - INFO - Completed print_schema_of_df for marketing_dim_df
+"20-Jan-23 23:54:43" - validations - INFO - Started print_top_ten_rows for marketing_dim_df
+"20-Jan-23 23:54:47" - validations - INFO - 
  	 marketing_key marketing_team marketing_place
              7  IND_MYQ_DIGEX             MYQ
              1  IND_BDQ_DIGEX             BDQ
@@ -261,102 +261,102 @@ aeee61fe-daab-4d74-ba31-c3c5948effe6      mobile
              6  IND_IXC_DIGEX             IXC
             10  IND_VTZ_DIGEX             VTZ
              2  IND_CCU_DIGEX             CCU
-"20-Jan-23 00:49:35" - validations - INFO - Completed print_top_ten_rows for marketing_dim_df
-"20-Jan-23 00:49:38" - run_ingestion - INFO - Started run_ingest_link_data().
-"20-Jan-23 00:49:38" - run_ingestion - INFO - Completed ingest_click_link().
+"20-Jan-23 23:54:47" - validations - INFO - Completed print_top_ten_rows for marketing_dim_df
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Started run_ingest_link_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Completed ingest_click_link().
 
-"20-Jan-23 00:49:38" - run_ingestion - INFO - Started run_ingest_open_event_data().
-"20-Jan-23 00:49:38" - run_ingestion - INFO - Completed ingest_open_event_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Started run_ingest_open_event_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Completed ingest_open_event_data().
 
-"20-Jan-23 00:49:38" - run_ingestion - INFO - Started run_ingest_sent_event_data().
-"20-Jan-23 00:49:39" - run_ingestion - INFO - Completed ingest_sent_event_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Started run_ingest_sent_event_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Completed ingest_sent_event_data().
 
-"20-Jan-23 00:49:39" - run_ingestion - INFO - Started run_ingest_unsubscribe_event_data().
-"20-Jan-23 00:49:39" - run_ingestion - INFO - Completed ingest_unsubscribe_event_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Started run_ingest_unsubscribe_event_data().
+"20-Jan-23 23:54:51" - run_ingestion - INFO - Completed ingest_unsubscribe_event_data().
 
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_click_df
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_click_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_click_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_click_df
 
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_open_df
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_open_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_open_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_open_df
 
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_sent_df
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_sent_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_sent_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_sent_df
 
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_unsubscribe_df
-"20-Jan-23 00:49:39" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_unsubscribe_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Started uer_event_pre_processing() for df user_email_unsubscribe_df
+"20-Jan-23 23:54:51" - run_pre_processing - INFO - Completed pre_processing for dataframe user_email_unsubscribe_df
 
-"20-Jan-23 00:49:39" - validations - INFO - Started print_top_ten_rows for user_email_click_event_df
-"20-Jan-23 00:49:39" - validations - INFO - 
- 	 campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status     event_type marketing_product  user_response_time  user_response_time_in_days
-9312209299.0     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             1    email_click     dummy_product                  -1                       -1.00
-8565306445.0          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1    email_click     dummy_product          1652066310                       19.12
-5677699934.0         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             0 email_no_click     dummy_product                  -1                       -1.00
-6766290285.0 email_marketing_strategy_177      978        Alicea Rowes    2022-05-04          ind_vtz_digex             0 email_no_click     dummy_product                  -1                       -1.00
-2599828201.0  email_youtube_marketing_151      947          Roxy Hardi    2022-05-01          ind_stv_digex             0 email_no_click     dummy_product                  -1                       -1.00
-5788969034.0          email_podcasting_71      305  Rosanne Cristofaro    2022-05-06          ind_bdq_digex             1    email_click     dummy_product          1651869091                       19.12
-3161021908.0    email_email_marketing_112      924            Dar Kill    2022-05-08          ind_vtz_digex             1    email_click     dummy_product                  -1                       -1.00
-8362875321.0          email_podcasting_56      241    Justen Templeman    2022-05-04          ind_vtz_digex             1    email_click     dummy_product                  -1                       -1.00
-1087412609.0         email_podcasting_166      536       Kelcie Jumeau    2022-05-04          ind_vtz_digex             0 email_no_click     dummy_product                  -1                       -1.00
-4421039322.0         email_podcasting_150      908          Fran Balme    2022-05-07          ind_vtz_digex             0 email_no_click     dummy_product                  -1                       -1.00
-"20-Jan-23 00:49:39" - validations - INFO - Completed print_top_ten_rows for user_email_click_event_df
-"20-Jan-23 00:49:39" - validations - INFO - Started print_top_ten_rows for user_email_open_df
-"20-Jan-23 00:49:39" - validations - INFO - 
- 	 campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status    event_type marketing_product  user_response_time  user_response_time_in_days
-4290406513.0         email_podcasting_180      637       Vasili Mourge    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651928635                       19.12
-9312209299.0     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             1    email_open     dummy_product          1651975084                       19.12
-8565306445.0          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1    email_open     dummy_product          1651966392                       19.12
-9462637563.0          email_podcasting_70      686       Jasun McClune    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651968262                       19.12
-5677699934.0         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
-8532570925.0         email_podcasting_121      937      Giacobo Warret    2022-05-05          ind_vtz_digex             1    email_open     dummy_product          1651818220                       19.12
-8533923481.0          email_podcasting_71      890     Harv Heathfield    2022-05-07          ind_vtz_digex             1    email_open     dummy_product                  -1                       -1.00
-1134471785.0 email_marketing_strategy_139      208  Celestina Marzelli    2022-05-03          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
-5683190452.0          email_podcasting_64      291  Blondell Morrallee    2022-05-01          ind_vtz_digex             0 email_no_open     dummy_product                  -1                       -1.00
-2599828201.0  email_youtube_marketing_151      947          Roxy Hardi    2022-05-01          ind_stv_digex             1    email_open     dummy_product          1651446933                       19.11
-"20-Jan-23 00:49:39" - validations - INFO - Completed print_top_ten_rows for user_email_open_df
-"20-Jan-23 00:49:39" - validations - INFO - Started print_top_ten_rows for user_email_send_df
-"20-Jan-23 00:49:39" - validations - INFO - 
- 	 campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status   event_type marketing_product  user_response_time  user_response_time_in_days
-4290406513.0         email_podcasting_180      637       Vasili Mourge    2022-05-07          ind_bdq_digex             1   email_sent     dummy_product          1651867728                       19.12
-9312209299.0     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             0 email_bounce     dummy_product                  -1                       -1.00
-8565306445.0          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1   email_sent     dummy_product          1652016459                       19.12
-9462637563.0          email_podcasting_70      686       Jasun McClune    2022-05-07          ind_bdq_digex             0 email_bounce     dummy_product                  -1                       -1.00
-5677699934.0         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             1   email_sent     dummy_product          1651652918                       19.12
-6766290285.0 email_marketing_strategy_177      978        Alicea Rowes    2022-05-04          ind_vtz_digex             1   email_sent     dummy_product          1651616166                       19.12
-8532570925.0         email_podcasting_121      937      Giacobo Warret    2022-05-05          ind_vtz_digex             1   email_sent     dummy_product          1651720371                       19.12
-8533923481.0          email_podcasting_71      890     Harv Heathfield    2022-05-07          ind_vtz_digex             1   email_sent     dummy_product          1651871872                       19.12
-1134471785.0 email_marketing_strategy_139      208  Celestina Marzelli    2022-05-03          ind_bdq_digex             1   email_sent     dummy_product          1651583758                       19.12
-5683190452.0          email_podcasting_64      291  Blondell Morrallee    2022-05-01          ind_vtz_digex             1   email_sent     dummy_product          1651356807                       19.11
-"20-Jan-23 00:49:39" - validations - INFO - Completed print_top_ten_rows for user_email_send_df
-"20-Jan-23 00:49:39" - validations - INFO - Started print_top_ten_rows for user_email_unsubscribe_df
-"20-Jan-23 00:49:40" - validations - INFO - 
- 	 campaign_id         course_campaign_name  user_id          user_name campaign_date digital_marketing_team  event_status           event_type marketing_product  user_response_time  user_response_time_in_days
-9312209299.0     email_email_marketing_60      879      Melisse Daber    2022-05-07          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-1134471785.0 email_marketing_strategy_139      208 Celestina Marzelli    2022-05-03          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
- 863028489.0          email_podcasting_39      158  Maurits Jurgensen    2022-05-07          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-2218349590.0          email_podcasting_38      270       Olvan Dancer    2022-05-04          ind_stv_digex             1    email_unsubscribe     dummy_product                  -1                        -1.0
-9711293374.0   email_youtube_marketing_92      682      Conway Fitter    2022-05-05          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-4042659861.0    email_email_marketing_130      312     Meghan Greenig    2022-05-04          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-7075830295.0  email_youtube_marketing_154      312     Meghan Greenig    2022-05-07          ind_pat_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-9733955175.0          email_podcasting_27      884     Vevay Antoniat    2022-05-05          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-7607058826.0   email_youtube_marketing_54      264     Nicolle Lapish    2022-05-04          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-1850280797.0   email_youtube_marketing_15      428      Jillie Benoix    2022-05-08          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
-"20-Jan-23 00:49:40" - validations - INFO - Completed print_top_ten_rows for user_email_unsubscribe_df
-"20-Jan-23 00:49:40" - validations - INFO - Started print_top_ten_rows for user_event_df
-"20-Jan-23 00:49:40" - validations - INFO - 
- 	 campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status    event_type marketing_product  user_response_time  user_response_time_in_days
-4290406513.0         email_podcasting_180      637       Vasili Mourge    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651928635                       19.12
-9312209299.0     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             1    email_open     dummy_product          1651975084                       19.12
-8565306445.0          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1    email_open     dummy_product          1651966392                       19.12
-9462637563.0          email_podcasting_70      686       Jasun McClune    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651968262                       19.12
-5677699934.0         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
-8532570925.0         email_podcasting_121      937      Giacobo Warret    2022-05-05          ind_vtz_digex             1    email_open     dummy_product          1651818220                       19.12
-8533923481.0          email_podcasting_71      890     Harv Heathfield    2022-05-07          ind_vtz_digex             1    email_open     dummy_product                  -1                       -1.00
-1134471785.0 email_marketing_strategy_139      208  Celestina Marzelli    2022-05-03          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
-5683190452.0          email_podcasting_64      291  Blondell Morrallee    2022-05-01          ind_vtz_digex             0 email_no_open     dummy_product                  -1                       -1.00
-2599828201.0  email_youtube_marketing_151      947          Roxy Hardi    2022-05-01          ind_stv_digex             1    email_open     dummy_product          1651446933                       19.11
-"20-Jan-23 00:49:40" - validations - INFO - Completed print_top_ten_rows for user_event_df
-"20-Jan-23 00:49:40" - validations - INFO - Started print_count_of_df for user_event_df
-"20-Jan-23 00:49:40" - validations - INFO - Count of user_event_df is : 58888
-"20-Jan-23 00:49:40" - validations - INFO - Completed print_count_of_df for user_event_df
-"20-Jan-23 00:49:41" - __main__ - INFO - Completed executing main().
+"20-Jan-23 23:54:51" - validations - INFO - Started print_top_ten_rows for user_email_click_event_df
+"20-Jan-23 23:54:52" - validations - INFO - 
+ 	campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status     event_type marketing_product  user_response_time  user_response_time_in_days
+ 9312209299     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             1    email_click     dummy_product                  -1                       -1.00
+ 8565306445          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1    email_click     dummy_product          1652066310                       19.12
+ 5677699934         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             0 email_no_click     dummy_product                  -1                       -1.00
+ 6766290285 email_marketing_strategy_177      978        Alicea Rowes    2022-05-04          ind_vtz_digex             0 email_no_click     dummy_product                  -1                       -1.00
+ 2599828201  email_youtube_marketing_151      947          Roxy Hardi    2022-05-01          ind_stv_digex             0 email_no_click     dummy_product                  -1                       -1.00
+ 5788969034          email_podcasting_71      305  Rosanne Cristofaro    2022-05-06          ind_bdq_digex             1    email_click     dummy_product          1651869091                       19.12
+ 3161021908    email_email_marketing_112      924            Dar Kill    2022-05-08          ind_vtz_digex             1    email_click     dummy_product                  -1                       -1.00
+ 8362875321          email_podcasting_56      241    Justen Templeman    2022-05-04          ind_vtz_digex             1    email_click     dummy_product                  -1                       -1.00
+ 1087412609         email_podcasting_166      536       Kelcie Jumeau    2022-05-04          ind_vtz_digex             0 email_no_click     dummy_product                  -1                       -1.00
+ 4421039322         email_podcasting_150      908          Fran Balme    2022-05-07          ind_vtz_digex             0 email_no_click     dummy_product                  -1                       -1.00
+"20-Jan-23 23:54:52" - validations - INFO - Completed print_top_ten_rows for user_email_click_event_df
+"20-Jan-23 23:54:52" - validations - INFO - Started print_top_ten_rows for user_email_open_df
+"20-Jan-23 23:54:52" - validations - INFO - 
+ 	campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status    event_type marketing_product  user_response_time  user_response_time_in_days
+ 4290406513         email_podcasting_180      637       Vasili Mourge    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651928635                       19.12
+ 9312209299     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             1    email_open     dummy_product          1651975084                       19.12
+ 8565306445          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1    email_open     dummy_product          1651966392                       19.12
+ 9462637563          email_podcasting_70      686       Jasun McClune    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651968262                       19.12
+ 5677699934         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
+ 8532570925         email_podcasting_121      937      Giacobo Warret    2022-05-05          ind_vtz_digex             1    email_open     dummy_product          1651818220                       19.12
+ 8533923481          email_podcasting_71      890     Harv Heathfield    2022-05-07          ind_vtz_digex             1    email_open     dummy_product                  -1                       -1.00
+ 1134471785 email_marketing_strategy_139      208  Celestina Marzelli    2022-05-03          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
+ 5683190452          email_podcasting_64      291  Blondell Morrallee    2022-05-01          ind_vtz_digex             0 email_no_open     dummy_product                  -1                       -1.00
+ 2599828201  email_youtube_marketing_151      947          Roxy Hardi    2022-05-01          ind_stv_digex             1    email_open     dummy_product          1651446933                       19.11
+"20-Jan-23 23:54:52" - validations - INFO - Completed print_top_ten_rows for user_email_open_df
+"20-Jan-23 23:54:52" - validations - INFO - Started print_top_ten_rows for user_email_send_df
+"20-Jan-23 23:54:52" - validations - INFO - 
+ 	campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status   event_type marketing_product  user_response_time  user_response_time_in_days
+ 4290406513         email_podcasting_180      637       Vasili Mourge    2022-05-07          ind_bdq_digex             1   email_sent     dummy_product          1651867728                       19.12
+ 9312209299     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             0 email_bounce     dummy_product                  -1                       -1.00
+ 8565306445          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1   email_sent     dummy_product          1652016459                       19.12
+ 9462637563          email_podcasting_70      686       Jasun McClune    2022-05-07          ind_bdq_digex             0 email_bounce     dummy_product                  -1                       -1.00
+ 5677699934         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             1   email_sent     dummy_product          1651652918                       19.12
+ 6766290285 email_marketing_strategy_177      978        Alicea Rowes    2022-05-04          ind_vtz_digex             1   email_sent     dummy_product          1651616166                       19.12
+ 8532570925         email_podcasting_121      937      Giacobo Warret    2022-05-05          ind_vtz_digex             1   email_sent     dummy_product          1651720371                       19.12
+ 8533923481          email_podcasting_71      890     Harv Heathfield    2022-05-07          ind_vtz_digex             1   email_sent     dummy_product          1651871872                       19.12
+ 1134471785 email_marketing_strategy_139      208  Celestina Marzelli    2022-05-03          ind_bdq_digex             1   email_sent     dummy_product          1651583758                       19.12
+ 5683190452          email_podcasting_64      291  Blondell Morrallee    2022-05-01          ind_vtz_digex             1   email_sent     dummy_product          1651356807                       19.11
+"20-Jan-23 23:54:52" - validations - INFO - Completed print_top_ten_rows for user_email_send_df
+"20-Jan-23 23:54:52" - validations - INFO - Started print_top_ten_rows for user_email_unsubscribe_df
+"20-Jan-23 23:54:52" - validations - INFO - 
+ 	campaign_id         course_campaign_name  user_id          user_name campaign_date digital_marketing_team  event_status           event_type marketing_product  user_response_time  user_response_time_in_days
+ 9312209299     email_email_marketing_60      879      Melisse Daber    2022-05-07          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 1134471785 email_marketing_strategy_139      208 Celestina Marzelli    2022-05-03          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 0863028489          email_podcasting_39      158  Maurits Jurgensen    2022-05-07          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 2218349590          email_podcasting_38      270       Olvan Dancer    2022-05-04          ind_stv_digex             1    email_unsubscribe     dummy_product                  -1                        -1.0
+ 9711293374   email_youtube_marketing_92      682      Conway Fitter    2022-05-05          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 4042659861    email_email_marketing_130      312     Meghan Greenig    2022-05-04          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 7075830295  email_youtube_marketing_154      312     Meghan Greenig    2022-05-07          ind_pat_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 9733955175          email_podcasting_27      884     Vevay Antoniat    2022-05-05          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 7607058826   email_youtube_marketing_54      264     Nicolle Lapish    2022-05-04          ind_bdq_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+ 1850280797   email_youtube_marketing_15      428      Jillie Benoix    2022-05-08          ind_vtz_digex             0 email_no_unsubscribe     dummy_product                  -1                        -1.0
+"20-Jan-23 23:54:52" - validations - INFO - Completed print_top_ten_rows for user_email_unsubscribe_df
+"20-Jan-23 23:54:52" - validations - INFO - Started print_top_ten_rows for user_event_df
+"20-Jan-23 23:54:53" - validations - INFO - 
+ 	campaign_id         course_campaign_name  user_id           user_name campaign_date digital_marketing_team  event_status    event_type marketing_product  user_response_time  user_response_time_in_days
+ 4290406513         email_podcasting_180      637       Vasili Mourge    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651928635                       19.12
+ 9312209299     email_email_marketing_60      879       Melisse Daber    2022-05-07          ind_vtz_digex             1    email_open     dummy_product          1651975084                       19.12
+ 8565306445          email_podcasting_34      194 Christian Ingleston    2022-05-08          ind_vtz_digex             1    email_open     dummy_product          1651966392                       19.12
+ 9462637563          email_podcasting_70      686       Jasun McClune    2022-05-07          ind_bdq_digex             1    email_open     dummy_product          1651968262                       19.12
+ 5677699934         email_podcasting_112      486      Dalis Dunseath    2022-05-04          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
+ 8532570925         email_podcasting_121      937      Giacobo Warret    2022-05-05          ind_vtz_digex             1    email_open     dummy_product          1651818220                       19.12
+ 8533923481          email_podcasting_71      890     Harv Heathfield    2022-05-07          ind_vtz_digex             1    email_open     dummy_product                  -1                       -1.00
+ 1134471785 email_marketing_strategy_139      208  Celestina Marzelli    2022-05-03          ind_bdq_digex             0 email_no_open     dummy_product                  -1                       -1.00
+ 5683190452          email_podcasting_64      291  Blondell Morrallee    2022-05-01          ind_vtz_digex             0 email_no_open     dummy_product                  -1                       -1.00
+ 2599828201  email_youtube_marketing_151      947          Roxy Hardi    2022-05-01          ind_stv_digex             1    email_open     dummy_product          1651446933                       19.11
+"20-Jan-23 23:54:53" - validations - INFO - Completed print_top_ten_rows for user_event_df
+"20-Jan-23 23:54:53" - validations - INFO - Started print_count_of_df for user_event_df
+"20-Jan-23 23:54:53" - validations - INFO - Count of user_event_df is : 58888
+"20-Jan-23 23:54:53" - validations - INFO - Completed print_count_of_df for user_event_df
+"20-Jan-23 23:55:05" - __main__ - INFO - Completed executing main().

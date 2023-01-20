@@ -24,3 +24,6 @@ user_dim_path = staging_dir + "\\dimensions\\user\\"
 country_dim_path = staging_dir + "\\dimensions\\country\\"
 device_dim_path = staging_dir + "\\dimensions\\device\\"
 marketing_dim_path = staging_dir + "\\dimensions\\marketing\\"
+
+# Output fact files
+fact_path = staging_dir + "\\fact\\"

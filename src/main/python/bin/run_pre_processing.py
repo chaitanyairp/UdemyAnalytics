@@ -40,7 +40,7 @@ def run_campaign_pre_processing(campaign_df, df_name):
         # Format fields
         campaign_df = campaign_df.select(
             f.concat_ws("_", f.col("campaign_id"), f.col("course_campaign_name")).alias("campaign_key"),
-            f.col("campaign_id").cast("double"),
+            f.col("campaign_id"),
             "course_campaign_name",
             "campaign_agenda",
             "campaign_category",
@@ -78,7 +78,7 @@ def run_user_event_pre_processing(user_event_df, df_name):
     try:
         logger.info(f"Started uer_event_pre_processing() for df {df_name}")
         user_event_df = user_event_df.select(
-            f.col("campaign_id").cast("double").alias("campaign_id"),
+            f.col("campaign_id").alias("campaign_id"),
             "course_campaign_name",
             f.col("user_id").cast("int"),
             "user_name",
